@@ -6,17 +6,6 @@ Este proyecto implementa un sistema IoT completo para el monitoreo y control de 
 
 ## ⚙️ Componentes del Sistema
 
-### Hardware
-- **Microcontrolador**: ESP32 (Programado con Arduino IDE)
-- **Sensores**:
-  - DHT22 (Temperatura y Humedad)
-  - MQ135 (Calidad del Aire/CO2)
-  - LDR (Nivel de Luz)
-- **Actuadores**:
-  - Relé para control de ventilador
-  - Servo para control de persianas
-  - LED RGB para indicación visual de estado
-
 ### Software
 - Base de datos: **Postgres** (SQL)
 - Comunicación: **MQTT** con broker Mosquitto
