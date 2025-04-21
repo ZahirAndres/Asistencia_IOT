@@ -167,17 +167,13 @@ Las contribuciones son bienvenidas. Por favor, crea un fork del repositorio, rea
 
 Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
-## 📧 Contacto
-
-Para preguntas o sugerencias, por favor contacta a:
-- Email: tu.email@ejemplo.com
-- GitHub: [tu-usuario](https://github.com/tu-usuario)
-
 ---
 
 ## Autoevaluaciones
 
 # Zahir Andrés Rodríguez Mora
+- Email: rodriguez.mora.zahir.15@gmail.com
+- GitHub: [ZahirAndres](https://github.com/ZahirAndres)
 
 ### ¿Qué hice bien?
 - 
@@ -190,6 +186,8 @@ Para preguntas o sugerencias, por favor contacta a:
 -
 
 # Cesar Enrique Garay García
+- Email: tu.email@ejemplo.com
+- GitHub: [tu-usuario](https://github.com/tu-usuario)
 
 ### ¿Qué hice bien?
 - 
