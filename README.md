@@ -51,6 +51,9 @@ Este proyecto implementa un sistema IoT completo para el monitoreo y control de 
                                                   └─────────────────┘
 ```
 
+![circuit_image (25)](https://github.com/user-attachments/assets/9052da56-daf9-44a2-9079-e441b41bd1c7)
+
+
 ## 🚀 Configuración y Uso
 
 ### Requisitos Previos
