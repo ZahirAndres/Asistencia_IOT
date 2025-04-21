@@ -160,7 +160,7 @@ El backend expone los siguientes endpoints RESTful:
 
 ## 👥 Videos e imágenes
 
-Las archivos estan nombrados en orden cronológico [Multimedia][]
+Las archivos estan nombrados en orden cronológico [Multimedia](Pruebas\Evidencia_grafica)
 
 ---
 
