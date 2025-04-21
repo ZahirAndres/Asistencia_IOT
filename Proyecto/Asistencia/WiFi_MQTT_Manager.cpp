@@ -13,6 +13,9 @@ const char* topic_store = "api/huella/store";
 const char* topic_login = "api/huella/login";
 const char* topic_delete_result = "api/huella/delete/result";
 const char* topic_update_result = "api/huella/update/result";
+const char* topic_result = "api/result";
+const char* topic_asis_huella = "api/huella";
+const char* topic_asis_rfid = "api/rfid";
 
 WiFiClient espClient;
 PubSubClient client(espClient);

@@ -20,7 +20,7 @@ void checkMotionSensor() {
     Serial.println("Movimiento detectado: persona detectada");
     playMelody();
     // Publica el mensaje en el tópico correspondiente
-    client.publish("api/sensor/movimiento", "persona detectada");
+    client.publish("api/sensor/movimiento", "Bienvenido !!!");
   }
   // Si no hay detección, reseteamos la bandera para detectar un futuro movimiento
   else if (sensorValue == LOW) {

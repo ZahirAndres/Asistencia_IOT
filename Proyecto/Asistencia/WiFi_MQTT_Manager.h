@@ -18,6 +18,8 @@ extern const char* topic_store;
 extern const char* topic_login;
 extern const char* topic_delete_result;
 extern const char* topic_update_result;
+extern const char* topic_asis_rfid;
+extern const char* topic_asis_huella;
 
 // Cliente WiFi y MQTT
 extern WiFiClient espClient;
