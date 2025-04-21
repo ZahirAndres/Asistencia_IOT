@@ -169,4 +169,3 @@ _Email: cesarenriquegaraygarcia@gmial.com_ • GitHub: [Cesax69](https://github.
 
 ---
 
-En conjunto, ambos aportaron piezas clave del sistema: Zahir en la capa de hardware y conexión IoT, y Cesar en la capa de datos, automatización y presentación. Si refinan la robustez del firmware, la seguridad y la usabilidad de la web, el proyecto dará un gran salto de calidad. ¡Excelente trabajo y a seguir mejorando!
