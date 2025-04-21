@@ -39,7 +39,7 @@ unsigned long ultimoReporteHuella = 0;
 const unsigned long intervaloReporteHuella = 2UL * 60UL * 60UL * 1000UL;  // 2 horas en ms
 
 // URL de tu Google Apps Script
-const char* googleScriptURL = "https://script.google.com/macros/s/AKfycbz0OfB9p3ZJN45XeOgBQRoKvoFQ0HU2WLZVWUkPui1_DJeAMzo_-NbWnzfpiKvNZrL8/exec";
+const char* googleScriptURL = "https://script.google.com/macros/s/AKfycbyidq0ae7SNPER2b6PaVpWQvSnM6hTzC5JxJlvw4hDFicRxKMBDhdQsKK2ixW0rvSy5/exec";
 
 // Funciones auxiliares de LEDs
 void mostrarErrorSensorHuella() {
