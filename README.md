@@ -29,26 +29,26 @@ Este proyecto implementa un sistema IoT completo para el monitoreo y control amb
 ## 🏗️ Arquitectura del Sistema
 
 ```
-┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐
-│                 │      │                 │      │                 │
-│  ESP32 + DHT22  │      │    MQTT         │      │   Node.js       │
-│  + MQ135 + LDR  │─────▶│   Broker        │─────▶│   Backend       │
-│  + Actuadores   │      │                 │      │                 │
-└─────────────────┘      └─────────────────┘      └────────┬────────┘
-                                                          │
-                                                          │
-┌─────────────────┐      ┌─────────────────┐      ┌───────▼────────┐
-│                 │      │                 │      │                 │
-│   Telegram Bot  │◀─────│   Sistema de    │◀─────│   MongoDB      │
-│   & Email       │      │   Notificaciones│      │   Atlas        │
-│                 │      │                 │      │                 │
-└─────────────────┘      └─────────────────┘      └─────────────────┘
+┌─────────────────┐       ┌─────────────────┐      ┌─────────────────┐
+│                 │       │                 │      │                 │
+│  ESP32          │       │    MQTT         │      │   Node-red      │
+│  + Sensores     │─────▶│   Broker        │─────▶│   Backend       │
+│  + Actuadores   │       │                 │      │                 │
+└─────────────────┘       └─────────────────┘      └─────────┬───────┘
+                                                             │
+                                                             │
+                         ┌─────────────────┐       ┌─────────▼────────┐
+                         │                 │       │                  │
+                         │   Sistema de    │◀───── │   Postgres      │
+                         │   Notificaciones│       │                  │
+                         │                 │       │                  │
+                         └─────────────────┘       └──────────────────┘
                                                           ▲
                                                           │
-                                                  ┌───────┴────────┐
+                                                  ┌───────┴─────────┐
                                                   │                 │
-                                                  │   React.js      │
-                                                  │   Dashboard     │
+                                                  │   Node-red      │
+                                                  │   Web           │
                                                   │                 │
                                                   └─────────────────┘
 ```
@@ -57,82 +57,22 @@ Este proyecto implementa un sistema IoT completo para el monitoreo y control amb
 
 ### Requisitos Previos
 - Arduino IDE con soporte para ESP32
-- Node.js v14+ y npm
-- Cuenta en MongoDB Atlas
-- Cuenta en Telegram para crear un bot
+- Node-red 
+- Postgres
+- Cuenta en Apps Scripts
 - Cliente MQTT (como Mosquitto)
 
-### Instalación
-
-#### 1. Configuración del Hardware
-```bash
-# Abrir el archivo Arduino (en la carpeta /arduino)
-esp32_sensors_control.ino
-```
-
-Conectar los componentes según el siguiente esquema:
-
-| Componente | Pin ESP32 |
-|------------|-----------|
-| DHT22      | D4        |
-| MQ135      | A0        |
-| LDR        | A3        |
-| Relé       | D22       |
-| Servo      | D21       |
-| LED RGB    | D15,D16,D17|
-
-#### 2. Configuración del Backend
-```bash
-# Clonar el repositorio
-git clone https://github.com/usuario/proyecto-iot-oficina.git
-cd proyecto-iot-oficina/backend
-
-# Instalar dependencias
-npm install
-
-# Configurar variables de entorno
-cp .env.example .env
-# Editar .env con tus credenciales
-```
-
-#### 3. Configuración del Frontend
-```bash
-# Navegar a la carpeta del frontend
-cd ../frontend
-
-# Instalar dependencias
-npm install
-
-# Configurar variables de entorno
-cp .env.example .env
-# Editar .env con la URL de tu backend
-
-# Iniciar la aplicación en modo desarrollo
-npm start
-```
-
-#### 4. Configuración del Broker MQTT
-```bash
-# En sistemas basados en Debian/Ubuntu
-sudo apt-get install mosquitto mosquitto-clients
-
-# Iniciar el servicio
-sudo systemctl start mosquitto
-
-# Verificar estado
-sudo systemctl status mosquitto
-```
 
 ## 📊 Interfaz de Usuario
 
 La interfaz web permite:
-- Visualizar datos en tiempo real de temperatura, humedad y calidad del aire
-- Ver gráficos históricos de las últimas 24 horas
-- Controlar manualmente los actuadores (ventilador, persianas)
-- Configurar umbrales para disparar alertas
-- Revisar el historial de notificaciones
+- Agregar **Usuarios, clases, asistencias, aulas, horarios**
+- Ver históricos de *Asistencias por usuario*
+- Controlar manualmente el agregar, eliminar o actualizar *credenciales* del **usuario**
 
-![Dashboard Screenshot](https://i.imgur.com/your-dashboard-image.jpg)
+
+![Web Screenshot](https://github.com/user-attachments/assets/0f37cad6-085f-47d8-9d1b-0b83ee4f6087)
+
 
 ## 🔄 Comunicación MQTT
 
