@@ -90,9 +90,8 @@ El sistema utiliza MQTT para la comunicación entre el ESP32 y el backend. Los t
 
 El sistema utiliza Postgres para almacenar:
 
-### Colección: `readings`
-```json
-
+### Estructura
+```
                 Listado de relaciones
  Esquema |        Nombre         |   Tipo    | 
 ---------+-----------------------+-----------+-
