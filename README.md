@@ -117,7 +117,7 @@ El sistema utiliza Postgres para almacenar:
 ```
 
 ## 📱 Sistema de Notificaciones
-
+- ![Notificaciones](https://docs.google.com/spreadsheets/d/1Dc3OdmuSdST2gik-8zWmGDjFpg_3OnFmzgLU6YSqR9U/edit?usp=sharing)
 El sistema envía alertas por dos canales:
 
 ### Correo Electrónico
