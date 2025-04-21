@@ -4,7 +4,7 @@
 
 ## 📝 Descripción del Proyecto
 
-Este proyecto implementa un sistema IoT completo para el monitoreo y control ambiental en oficinas, integrando sensores de temperatura, humedad y calidad del aire con actuadores automatizados para mantener condiciones óptimas de trabajo. El sistema recoge datos en tiempo real, los almacena en una base de datos, los visualiza en un dashboard web y envía notificaciones cuando se detectan valores fuera de los rangos deseados.
+Este proyecto implementa un sistema IoT completo para el monitoreo y control de asistencia en oficinas o contexto necesario, integrando sensores automatizados para mantener acciones óptimas de trabajo. El sistema recoge datos en tiempo real, los almacena en una base de datos, los visualiza en una Web y envía notificaciones cuando se detectan estodos fuera de lo deseado.
 
 ## ⚙️ Componentes del Sistema
 
