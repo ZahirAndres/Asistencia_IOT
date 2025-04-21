@@ -20,11 +20,11 @@ Este proyecto implementa un sistema IoT completo para el monitoreo y control de 
   - LED RGB para indicación visual de estado
 
 ### Software
-- Base de datos: **MongoDB Atlas** (NoSQL)
+- Base de datos: **Postgres** (SQL)
 - Comunicación: **MQTT** con broker Mosquitto
-- Backend: **Node.js** con Express
-- Frontend: **React.js** con Material-UI
-- Sistema de Notificaciones: **Email** (nodemailer) y **Telegram Bot**
+- Backend: **Node-Red**
+- Frontend: **Node-Red** 
+- Sistema de Notificaciones: **Email** y **Hoja de Cálculo** con Add Scripts
 
 ## 🏗️ Arquitectura del Sistema
 
