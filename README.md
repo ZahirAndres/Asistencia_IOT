@@ -1,7 +1,5 @@
 # Sistema de Monitoreo Ambiental para Oficinas Inteligentes
 
-![Sistema IoT](https://i.imgur.com/your-banner-image.jpg)
-
 ## 📝 Descripción del Proyecto
 
 Este proyecto implementa un sistema IoT completo para el monitoreo y control de asistencia en oficinas o contexto necesario, integrando sensores automatizados para mantener acciones óptimas de trabajo. El sistema recoge datos en tiempo real, los almacena en una base de datos, los visualiza en una Web y envía notificaciones cuando se detectan estodos fuera de lo deseado.
@@ -160,13 +158,15 @@ El backend expone los siguientes endpoints RESTful:
 | GET    | `/api/settings` | Obtiene configuración |
 | PUT    | `/api/settings` | Actualiza configuración |
 
+## 👥 Videos e imágenes
+
+Las archivos estan nombrados en orden cronológico [Multimedia][]
+
+---
+
 ## 👥 Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, crea un fork del repositorio, realiza tus cambios y envía un pull request para su revisión.
-
-## 📄 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
