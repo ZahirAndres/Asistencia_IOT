@@ -169,3 +169,6 @@ _Email: cesarenriquegaraygarcia@gmial.com_ • GitHub: [Cesax69](https://github.
 
 ---
 
+## Validación
+
+![image](https://github.com/user-attachments/assets/fa29566a-ae59-430c-a7bc-cd414cb32f46)
